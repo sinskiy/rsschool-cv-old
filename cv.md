@@ -39,6 +39,14 @@ I'm 14 years old from Russia, who really likes reading dystopia and self-improve
 - React w/ [Million.js](https://million.dev/)
 
 ---
+
+## Projects
+
+- [Seterra extra](https://github.com/Sinskiy/seterraextra). Extension, that adds many cool features for Seterra - website for learning geography
+- [Old personal website](https://github.com/Sinskiy/sinskiy-personal-website-beta-0.2.0-). I'm planning to create updated personal website
+- 2 more Seterra extensions (they are buggy as I made them for personal usage). [First extension](https://github.com/Sinskiy/seterra-bruteforcer-100-chance), [second extension](https://github.com/Sinskiy/seterra-new-timing-system)
+
+---
 ## My story *(tl;dr)*
 
 Everything I have now, every interest and hobby is basically the outcome of just a few events in my life
