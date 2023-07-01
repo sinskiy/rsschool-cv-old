@@ -30,6 +30,7 @@ I'm 14 years old from Russia, who really likes reading dystopia and self-improve
 - Project management
 - Basics of investing
 - Fast typing
+- Nerd in geography
 
 ---
 ## Want to learn
