@@ -47,6 +47,13 @@ I'm 14 years old from Russia, who really likes reading dystopia and self-improve
 - 2 more Seterra extensions (they are buggy as I made them for personal usage). [First extension](https://github.com/Sinskiy/seterra-bruteforcer-100-chance), [second extension](https://github.com/Sinskiy/seterra-new-timing-system)
 
 ---
+
+## Languages
+
+- English. Understanding B2, Speaking A2
+- Russian. Native
+
+---
 ## My story *(tl;dr)*
 
 Everything I have now, every interest and hobby is basically the outcome of just a few events in my life
