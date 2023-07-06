@@ -113,7 +113,7 @@ aside > p {
 
 /* cool animation by https://codepen.io/shshaw/pen/YpERQQ */
 
-main a {
+main a, footer a {
     background: linear-gradient(to right, #314755 20%, #26a0da 40%, #26a0da 60%, #314755 80%);
     background-size: 200% auto;
     background-clip: text;
