@@ -101,7 +101,12 @@ aside > p {
 }
 
 #rs-logo {
-    width: 30%;
+    width: 100%;
+    height: auto;
+}
+
+#rs-logo--link {
+    width: 10%;
     height: auto;
 }
 
@@ -126,3 +131,5 @@ main a {
       background-position: 200% center;
     }
 }
+
+/* media */
