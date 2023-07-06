@@ -36,10 +36,6 @@ header, footer {
     align-items: center;
 }
 
-header {
-    position: fixed;
-}
-
 #logo-wrapper {
     display: flex;
     align-items: center;
@@ -56,11 +52,14 @@ header {
 .links--link {
     margin-right: 2rem;
     text-decoration: none;
-    text-transform: capitalize;
 }
 
 section {
     max-width: 50rem;
+}
+
+header > a {
+    text-decoration: none;
 }
 
 h2 {
@@ -76,7 +75,7 @@ ul{
     font-size: 2rem;
 }
 
-li > ul > li {
+ul > ul > li, ul > ul > li > a {
     font-size: 1.5rem;
 }
 
