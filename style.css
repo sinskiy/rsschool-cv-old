@@ -25,7 +25,7 @@ a {
 /* header (& footer) */
 
 nav > a:link {
-    border: #BADA55 1px dashed;
+    border: black 1px dashed;
     padding: 0.5rem;
     border-radius: 5px;
 }
