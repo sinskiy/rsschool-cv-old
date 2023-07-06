@@ -6,9 +6,9 @@ html {
 }
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
     margin: 0;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
     display: flex;
     flex-direction: column;
@@ -16,14 +16,16 @@ body {
 }
 
 a {
-    color: #232323;
+    color: black;
 }
 
-ul {
-    margin: 0.5rem;
-}
+/* MAIN STYLES */
 
-/* main styles */
+/* header (& footer) */
+
+header a {
+    text-decoration: dashed;
+}
 
 header, footer {
     min-width: 100%;
@@ -54,34 +56,37 @@ header, footer {
     text-decoration: none;
 }
 
+/* sections (main) */
+
+/* sections (main) -> typography */
+
+
 section {
     max-width: 50rem;
 }
 
-header > a {
-    text-decoration: none;
-}
-
-h2 {
+main h2 {
     font-size: 4rem;
     margin: 5rem 0 1rem 0;
 }
 
-hr {
+main > hr {
     margin: 5rem 0;
 }
 
-ul{
+ul {
     font-size: 2rem;
 }
 
-ul > ul > li, ul > ul > li > a {
+ul > ul > li { /* double bullet list */
     font-size: 1.5rem;
 }
 
-p, code {
+main p, main code {
     font-size: 1.5rem;
 }
+
+/* footer itself */
 
 footer {
     margin-top: 5rem;
@@ -98,4 +103,26 @@ aside > p {
 #rs-logo {
     width: 30%;
     height: auto;
+}
+
+/* cool animation by https://codepen.io/shshaw/pen/YpERQQ */
+
+main a {
+    background: linear-gradient(to right, #314755 20%, #26a0da 40%, #26a0da 60%, #314755 80%);
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: shine 1s linear infinite;
+}
+
+@keyframes shine {
+    from {
+        background-position: 0% center;
+    }
+    to {
+      background-position: 200% center;
+    }
 }
