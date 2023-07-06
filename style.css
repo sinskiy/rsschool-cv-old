@@ -51,3 +51,7 @@ header, footer {
 
     text-transform: capitalize;
 }
+
+h2 {
+    font-size: 4rem;
+}
