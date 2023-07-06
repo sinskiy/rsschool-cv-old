@@ -1,7 +1,7 @@
 /* normalization & global */
 
 html {
-    color-scheme: dark;
+    color-scheme: ligth dark;
     scroll-behavior: smooth;
 }
 
@@ -68,7 +68,6 @@ section {
 main h2 {
     font-size: clamp(1.5rem, 8vw, 4rem);
     margin: 5rem 0 1rem 0;
-    text-decoration: double!important;
 }
 
 main > hr {
