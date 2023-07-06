@@ -1,3 +1,3 @@
 https://sinskiy.github.io/rsschool-cv/cv
 
-https://sinskiy.github.io/rsschool-cv/
+https://sinskiy.github.io/rsschool-cv
