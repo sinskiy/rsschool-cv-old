@@ -2,6 +2,7 @@
 
 html {
     color-scheme: light dark;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -11,7 +12,6 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -34,6 +34,10 @@ header, footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+header {
+    position: fixed;
 }
 
 #logo-wrapper {
@@ -82,4 +86,17 @@ p, code {
 
 footer {
     margin-top: 5rem;
+}
+
+aside {
+    display: flex;
+}
+
+aside > p {
+    margin-right: 2rem;
+}
+
+#rs-logo {
+    width: 30%;
+    height: auto;
 }
